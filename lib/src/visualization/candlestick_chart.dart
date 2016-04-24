@@ -1,6 +1,6 @@
 part of google_visualization_api.charts;
 
-class CandlestickChart extends Chart {
+class CandlestickChart extends _SelectReadyErrorMouseClickAnimationChart with CoreSelection {
   CandlestickChart(Element e) : super._(e, "CandlestickChart", vis) {
 
   }

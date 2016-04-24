@@ -1,6 +1,6 @@
 part of google_visualization_api.charts;
 
-class SteppedAreaChart extends Chart {
+class SteppedAreaChart extends _SelectReadyErrorMouseClickAnimationChart with CoreSelection {
   SteppedAreaChart(Element e) : super._(e, "SteppedAreaChart", vis) {
 
   }

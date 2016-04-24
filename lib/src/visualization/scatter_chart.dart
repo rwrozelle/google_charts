@@ -1,6 +1,6 @@
 part of google_visualization_api.charts;
 
-class ScatterChart extends Chart with _DiffChart {
+class ScatterChart extends _SelectReadyErrorMouseClickAnimationChart with CoreSelection ,_DiffChart {
   ScatterChart(Element e) : super._(e, "ScatterChart", vis) {
 
   }

@@ -1,6 +1,6 @@
 part of google_visualization_api.charts;
 
-class AnnotationChart extends Chart {
+class AnnotationChart extends _SelectReadyErrorMouseClickAnimationChart with CoreSelection {
   AnnotationChart(Element e) : super._(e, "AnnotationChart", vis) {
 
   }

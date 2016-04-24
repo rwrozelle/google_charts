@@ -1,6 +1,6 @@
 part of google_visualization_api.charts;
 
-class Histogram extends Chart {
+class Histogram extends _SelectReadyErrorMouseClickAnimationChart with CoreSelection {
   Histogram(Element e) : super._(e, "Histogram", vis) {
 
   }
