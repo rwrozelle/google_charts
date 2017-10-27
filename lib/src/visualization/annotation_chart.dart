@@ -5,7 +5,11 @@ class AnnotationChart extends _SelectReadyErrorMouseClickAnimationChart with Cor
 
   }
 
-  void draw(data, [core.Map options = null, state = null]) {
+  void draw(data, [options = null]) {
+    super.draw(data, options);
+  }
+
+  void drawAnnotation(data, [core.Map options = null, state = null]) {
     super.draw(data, options);
   }
 

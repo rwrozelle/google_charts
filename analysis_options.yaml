@@ -1,0 +1,11 @@
+analyzer:
+  strong-mode: true
+
+  errors:
+    todo: ignore
+
+linter:
+  rules:
+    - avoid_empty_else
+    - cancel_subscriptions
+    - close_sinks
