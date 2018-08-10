@@ -3,6 +3,8 @@ version: 0.1.3+2
 author: Robert Hartung <robert.w.hartung@gmail.com>
 description: Google Charts API Wrapper Classes.
 homepage: https://github.com/roberthartung/google_charts
+environment:
+  sdk: ^2.0.0
 dev_dependencies:
   html: any
   http: any
